@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(217deg, 54%, 11%);
+}
+body .card {
+  margin: 50px auto;
+  width: 335px;
+  background-color: hsl(216deg, 50%, 16%);
+  padding: 25px;
+  border-radius: 15px;
+}
+body .card .img {
+  width: 100%;
+}
+body .card .img .principal {
+  width: 100%;
+  border-radius: 10px;
+}
+body .card .img .hover {
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  margin: -290px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 285px;
+  width: 285px;
+}
+body .card .img .hover .icon {
+  visibility: hidden;
+  height: 28px;
+  width: 28px;
+}
+body .card .img .hover:hover {
+  visibility: visible;
+  cursor: pointer;
+  background-color: hsla(178deg, 100%, 50%, 0.3);
+}
+body .card .img .hover:hover .icon {
+  visibility: inherit;
+}
+body .card .title {
+  padding: 15px 0 5px;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.3em;
+}
+body .card .title:hover {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+}
+body .card .description {
+  padding: 10px 0;
+  color: hsl(215deg, 51%, 70%);
+}
+body .card section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 0 10px;
+}
+body .card section .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  color: hsl(178deg, 100%, 50%);
+}
+body .card section .time {
+  color: hsl(215deg, 51%, 70%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+body .card hr {
+  border-color: hsl(215deg, 32%, 27%);
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+}
+body .card .perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  padding-top: 15px;
+}
+body .card .perfil img {
+  border: 1px solid hsl(0deg, 0%, 100%);
+  border-radius: 100%;
+  width: 35px;
+}
+body .card .perfil p {
+  color: hsl(215deg, 51%, 70%);
+}
+body .card .perfil p a {
+  text-decoration: none;
+  color: hsl(0deg, 0%, 100%);
+}
+body .card .perfil p a:hover {
+  color: hsl(178deg, 100%, 50%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  font-size: 11px;
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
